@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 
 export default function Home() {
     const users = useSelector((state)=>state.users);
+    console.log(users);
   return (
     <div className='container'>
     <h2>Crud App with Json server</h2>
